@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
 import LoginViewVue from '@/views/LoginView.vue'
 import TimeTrackViewVue from '@/views/TimeTrackView.vue'
 import TicketManagementViewVue from '@/views/TicketManagementView.vue'
@@ -25,7 +23,7 @@ const router = createRouter({
       path: '/TicketManagement',
       name: 'TicketManagement',
       component: TicketManagementViewVue,
-      meta: { title: '工單/派工' }
+      meta: { title: '派工/完工' }
     },
     {
       path: '/:catchAll(.*)',

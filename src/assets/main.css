@@ -9,3 +9,9 @@
 .ttt {
   @apply border-2 border-red-600;
 }
+
+/* https://www.npmjs.com/package/@vueform/multiselect?activeTab=readme#styling-with-tailwind-css */
+
+.multiselect-tag {
+  @apply bg-green-600 !important;
+}

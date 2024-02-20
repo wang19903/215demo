@@ -1,10 +1,9 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    ErrorView
-    <!-- <TheWelcome /> -->
-  </main>
+  <div>
+
+  </div>
 </template>
+
+<script setup lang="ts">
+
+</script>
