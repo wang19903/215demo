@@ -13,5 +13,13 @@
 /* https://www.npmjs.com/package/@vueform/multiselect?activeTab=readme#styling-with-tailwind-css */
 
 .multiselect-tag {
-  @apply bg-green-600 !important;
+  @apply bg-white text-black  space-x-2 !important;
+}
+
+.multiselect-wrapper {
+  @apply w-[310px] sm:w-[240px]  !important;
+}
+
+.multiselect-tag-wrapper {
+  @apply text-base font-normal !important;
 }

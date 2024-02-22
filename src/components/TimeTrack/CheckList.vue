@@ -22,7 +22,8 @@ const reverseDateList = computed(() => {
         </div>
         <TransitionGroup name="list" tag="div">
             <div v-for="date in reverseDateList" :key="date.date"
-                class="flex justify-between text-center border-b border-gray-400 py-[5px]">
+                class="flex justify-between text-center border-b border-gray-400 py-[5px]"
+                :class="{ 'text-red-500': date.dayOfWeek === '六' || date.dayOfWeek === '日' }">
                 <div class="flex-1">{{ date.date }}</div>
                 <div class="flex-1">{{ date.onWork }}</div>
                 <div class="flex-1">{{ date.offWork }}</div>
